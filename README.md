@@ -4,9 +4,9 @@ A simple To-Do list web app built with HTML, CSS, JavaScript.
 
 ## Preview
 
-![Preview 1](https://i.im.ge/2022/09/07/OfM3Rr.downloadfile-png-1-1.png)
+![Preview 1](https://i.ibb.co/3FFy2Xn/downloadfile-png-1-1.png)
 
-![Preview 2](https://i.im.ge/2022/09/07/OfMbQW.downloadfile-png-1.png)
+![Preview 2](https://i.ibb.co/4mGvQT2/downloadfile-png-1.png)
 
 ## Features
 

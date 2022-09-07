@@ -141,7 +141,7 @@ body {
 
 .empty-container {
   display: block;
-  color: var(--texts);
+  color: var(--header-texts);
   font-size: 2.2rem;
   font-weight: 350;
 }
