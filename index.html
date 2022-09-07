@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="chartist.min.css">
+  <link rel="stylesheet" href="style.css">
+  <script src="main.js" defer></script>
+  <title>Todo List</title>
+</head>
+
+<body>
+  <!-- Sidebar (hidden) -->
+  <div class="sidebar">
+    <h1>Todo list</h1>
+    <ul>
+      <li class="completed">Completed</li>
+      <li class="trash">Trash</li>
+      <li class="theme">Theme</li>
+    </ul>
+  </div>
+  
+  <!-- Options for a todo/completed/trash task (hidden) -->
+  <div class="task-option-menu">
+    <div class="wrapper">
+      <section class="options">
+        <span class="option edit">Edit task</span>
+        <span class="option complete">Mark as complete</span>
+        <span class="option incomplete">Mark as incomplete</span>
+        <span class="option to-trash">Move to trash</span>
+        <span class="option recover">Recover task</span>
+        <span class="option delete">Delete forever</span>
+      </section>
+      <button class="task-option-menu-close close">Close</button>
+    </div>
+  </div>
+  
+  <!-- Full-screen container (hidden) -->
+  <div class="fullscr-container">
+    <div class="wrapper">
+      <header class="container-header">
+        <button class="back"></button>
+        <h1></h1>
+      </header>
+      <section class="fullscr-container-body">
+        <div class="completed"></div>
+        <div class="trash"></div>
+        <div class="theme">
+          <div class="theme-selector">
+            <input type="radio" name="theme" id="light">
+            <label for="light">Light</label>
+          </div>
+          <div class="theme-selector">
+            <input type="radio" name="theme" id="dark">
+            <label for="dark">Dark</label>
+          </div>
+        </div>
+        <div class="newtask">
+          <textarea autofocus spellcheck="true" placeholder="What do you want to do?"></textarea>
+        </div>
+        <div class="edittask">
+          <textarea readonly>Editing task is not supported yet :(</textarea>
+        </div>
+      </section>
+    </div>
+  </div>
+
+  <!-- Page contents -->
+  <div class="wrapper main">
+    <!-- header and sidebar button -->
+    <header class="page-header">
+      <h1>Todo list</h1>
+      <button class="sidebar-button">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </header>
+
+    <!-- Todos -->
+    <section class="todos"></section>
+
+    <!-- add task button -->
+    <button class="add-new">New task</button>
+  </div>
+</body>
+
+</html>
